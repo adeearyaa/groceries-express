@@ -4,7 +4,11 @@ const asyncHandler = require("express-async-handler")
 // going to make a list of function that the api endpoint will be calling
 
 
-// displays all the categories that we have 
+// home page wht the user sees when they first enter 
+exports.index = asyncHandler(async(req,res,next)=> {
+
+});
+
 exports.categoryList = asyncHandler(async(req,res,next)=> {
 
 });
